@@ -44,6 +44,7 @@
     
     cell.textLabel.text = _title;
     cell.textLabel.textAlignment = UITextAlignmentCenter;
+    cell.imageView.image = _image;
     return cell;
 }
 
